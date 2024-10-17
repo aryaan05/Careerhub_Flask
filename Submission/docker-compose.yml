@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongoprojecttwo
+    ports:
+      - "27017:27017"
+    volumes:
+      - /Users/aryaan/Desktop/Data Science/ds5760 NoSQL/Projects/MiniProject2/mp2-data/data:/data/db
